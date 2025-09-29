@@ -1,0 +1,11 @@
+# Ignore all nested repos
+*/.git/
+
+# Ignore specific folders
+Dev_C/
+Dev_Docker/
+Dev_Python/
+Dev_Resume/
+Git_test/
+Mac/
+
