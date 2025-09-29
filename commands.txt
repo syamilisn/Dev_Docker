@@ -5,9 +5,9 @@ docker build -t my-python-env .
 docker run -it --rm -v $(pwd):/app -w /app my-python-env
 
 # Persistent container
-docker run -it -v $(pwd):/app -w /app --name Name my-python-env
+docker run -it -v $(pwd):/app -w /app --name Bubble my-python-env
     # Next time     a:attach_to_cntnr i:interactive_commands
-docker start -ai Viper
+docker start -ai Bubble
 
 # Check container list
 docker ps -a
