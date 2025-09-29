@@ -6,3 +6,10 @@ docker run -it --rm -v $(pwd):/app -w /app my-python-env
 
 # Persistent container
 docker run -it -v $(pwd):/app -w /app --name Viper my-python-env
+    # Next time     a:attach_to_cntnr i:interactive_commands
+docker start -ai Viper
+
+# Check container
+docker ps -a
+
+docker info
