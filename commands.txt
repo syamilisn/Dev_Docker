@@ -20,3 +20,10 @@ docker rm <container_id_or_name>
 
 # Rename container
 docker rename <old_name> <new_name>
+
+# Useful git commands 
+git status
+git log -n 1
+git merge
+git rebase
+git push
