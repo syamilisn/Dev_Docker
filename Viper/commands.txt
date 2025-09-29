@@ -1,0 +1,8 @@
+# Build docker image "Dockerfile"       t:gives name to image
+docker build -t my-python-env .
+
+# Run docker        it:interactive_terminal rm:remove_cntnr_on_exit v:mount_project_app w:working_dir
+docker run -it --rm -v $(pwd):/app -w /app my-python-env
+
+# Persistent container
+docker run -it -v $(pwd):/app -w /app --name Viper my-python-env
