@@ -5,11 +5,18 @@ docker build -t my-python-env .
 docker run -it --rm -v $(pwd):/app -w /app my-python-env
 
 # Persistent container
-docker run -it -v $(pwd):/app -w /app --name Viper my-python-env
+docker run -it -v $(pwd):/app -w /app --name Name my-python-env
     # Next time     a:attach_to_cntnr i:interactive_commands
 docker start -ai Viper
 
-# Check container
+# Check container list
 docker ps -a
 
+# Prints detailed system-wide information about your Docker installation and environment
 docker info
+
+# Remove container
+docker rm <container_id_or_name>
+
+# Rename container
+docker rename <old_name> <new_name>

@@ -2,10 +2,11 @@
 Home Page To Docker Containers
 
 #######sample###########
-Hi!
+Prerequisites:
+Install Docker on your OS.
 
 #######sample##########
 
-# Viper Docker
+# Bubble Docker
 TBD:
-1. Viper dock is set to bash; Verify zsh to be installed or not in the container.
+Container is set to bash; Verify zsh to be installed or not in the container.
