@@ -9,3 +9,6 @@ Dev_Resume/
 Git_test/
 Mac/
 myfolder/
+
+# Ignore specific files
+pythonimage.tar
