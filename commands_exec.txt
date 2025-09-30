@@ -1,0 +1,155 @@
+    1  ls -al ~/.ssh
+    2  ls -al ~/.ssh
+    3  C:
+    4  dir
+    5  ls
+    6  ls -al ~/.ssh
+    7  ssh-keygen -t ed25519 -C "shyamilisn.itfa@gmail.com"
+    8  ls
+    9  pwd
+   10  eval "$(ssh-agent -s)"~
+   11  ssh-add ~/.ssh/id_ed25519
+   12  clip < ~/.ssh/id_ed25519.pub
+   13  ssh -T git@github.com
+   14  cd
+   15  l
+   16  ls
+   17  pwd
+   18  cd /X
+   19  l
+   20  ls
+   21  cd Dev_Resume/
+   22  l
+   23  ls
+   24  git init
+   25  git status
+   26  git add .
+   27  git commit -m "added files"
+   28  git branch
+   29  git push -u remote origin https://github.com/syamilisn/Dev_Resume.git
+   30  git push
+   31  git remote add syamilisn https://github.com/syamilisn/Dev_Resume.git
+   32  git push syamilisn
+   33  git push -u syamilisn
+   34  git clone https://github.com/syamilisn/Dev_Resume.git
+   35  git clone https://github.com/syamilisn/Dev_Resume.git
+   36  git status
+   37  git reset .
+   38  git status
+   39  cd
+   40  l
+   41  ls
+   42  git clone https://github.com/syamilisn/Dev_Resume.git
+   43  pwd
+   44  ls
+   45  cd X:
+   46  pwd
+   47  cd Dev_Android
+   48  ls
+   49  cd pixel3a/
+   50  dir
+   51  l
+   52  ls
+   53  ls -al
+   54  dir
+   55  $ repo init -b android-14.0.0_r29 -u https://android.googlesource.com/platform/manifest
+   56  repo init -b android-14.0.0_r29 -u https://android.googlesource.com/platform/manifest
+   57    sudo apt-get update
+   58    sudo apt-get install repo
+   59    sudo apt-get update
+   60    sudo apt-get install repo
+   61  git
+   62  ls
+   63  ls .*
+   64  ls .git
+   65  git branch --set-upstream-to=origin/main main
+   66  git branch -u origin/main
+   67  git pull
+   68  git merge
+   69  git branch --set-upstream-to=origin/main main
+   70  git branch
+   71  git checkout -b main origin/main
+   72  git pull
+   73  ./dock2
+   74  ./dock
+   75  docker run -it -v $(pwd):/app -w /app --name Bubble my-python-env
+   76  docker run -it -v ${PWD}:/app -w /app syamilisn/my-python-env:latest
+   77  pwd
+   78  docker run -it -v "$(pwd -W):/app" -w /app syamilisn/my-python-env:latest bash
+   79  vi docker-compose.yaml
+   80  vi docker-compose.yaml
+   81  docker-compose up -d
+   82  docker-compose up -d
+   83  docker-compose up -d
+   84  docker-compose -p x up -d
+   85  docker run -it -v "$(pwd -W):/app" -w /app syamilisn/my-python-env:latest bash
+   86  pwd
+   87  pwd -W
+   88  docker run -it -v "$(pwd -W):/app" -w /app syamilisn/my-python-env:latest bash
+   89  docker run -it -v "$(pwd -W):/app" -w /$(basename "$(pwd)") syamilisn/my-python-env:latest bash
+   90  docker run -it -v "X:/:/x" -w /x syamilisn/my-python-env:latest bash
+   91  docker run -it -v "X:/:/x" -w /x syamilisn/my-python-env:latest bash
+   92  docker run -it -v "X:\Dev_Docker:/app" -w /app syamilisn/my-python-env:latest bash
+   93  pwd
+   94  docker run -it -v /x:/app -w /app syamilisn/my-python-env:latest bash
+   95  docker run -it -v /x:/app -w /app syamilisn/my-python-env:latest bash
+   96  docker login
+   97      docker run -it syamilisn/my-python-env:latest
+   98  docker run -it -v /x:/app -w /app syamilisn/my-python-env:latest bash
+   99  docker-compose up -d
+  100  docker-compose -p x up -d
+  101  docker run -it -v /x:/app -w /app syamilisn/my-python-env:latest bash
+  102  docker exec -it Bubble bash
+  103  python --version
+  104  git status
+  105  vi .gitignore 
+  106  ls
+  107  vi ./
+  108  vi .gitignore 
+  109  ls
+  110  cd c
+  111  cd x
+  112  ls
+  113  cd ..
+  114  ls
+  115  vi .gitignore 
+  116  git status
+  117  git status
+  118  vi .gitignore 
+  119  git status
+  120  git add .gitignore 
+  121  git status
+  122  git add .gitignore 
+  123  vi .gitignore 
+  124  git status
+  125  git restore --staged .gitignore
+  126  git rm --cached Kaiwan.zip SysinternalsSuite.zip docker-compose.yaml
+  127  git status
+  128  git check-ignore -v Kaiwan.zip
+  129  git check-ignore -v SysinternalsSuite.zip
+  130  git check-ignore -v dock
+  131  vi .gitpath
+  132  vi .gitignore 
+  133  git status
+  134  vi .gitignore 
+  135  git status
+  136  ls
+  137  mkdir Others
+  138  mv Kaiwan.zip Others/
+  139  vi .gitignore 
+  140  git status status
+  141  git status 
+  142  mv SysinternalsSuite.zip Others/
+  143  git status 
+  144  git add .
+  145  git commit -m "updated .gitignore in x: windows"
+  146  git push
+  147  cd Dev_Docker/
+  148  ls
+  149  git pull
+  150  ls
+  151  cd ..
+  152  ls
+  153  ./dock2
+  154  docker exec -it Bubble bash
+  155  history > commands_exec.txt
