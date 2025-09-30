@@ -46,3 +46,13 @@ git log -n 1
 git merge
 git rebase
 git push
+
+# To purge larger files from getting added to git
+
+  626  brew install bfg\n
+  627  brew install git-filter-repo\n
+  628  git clone --mirror https://github.com/syamilisn/Dev_Docker.git Dev_Docker_backup.git\n
+  629  git filter-repo --path pythonimage.tar --invert-paths\n
+  630  bfg --delete-files pythonimage.tar\n
+  631  \tgit reflog expire --expire=now --all && git gc --prune=now --aggressive
+  632  git add .gitignore\ngit commit -m "Ignore large docker image tar"\ngit push origin main\n
