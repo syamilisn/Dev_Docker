@@ -46,6 +46,14 @@ docker push your-dockerhub-username/my-python-env:latest
     docker pull syamilisn/my-python-env:latest
     docker run -it syamilisn/my-python-env:latest
 
+    # Build for multiple-architecture amd64(windows) and arm64(mac)
+    docker buildx create --use
+
+        # This command is so that it will work seemlessly on multi-arch
+    docker buildx build \
+    --platform linux/amd64,linux/arm64 \
+    -t syamilisn/my-python-env:latest \
+    --push .
 #######################################
 
 # Useful git commands 
