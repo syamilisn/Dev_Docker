@@ -38,6 +38,14 @@ docker login
     # Push the image
 docker push your-dockerhub-username/my-python-env:latest
 
+    # Commands used:
+  641  docker tag my-python-env:latest syamilisn/my-python-env:latest
+  642  docker push syamilisn/my-python-env:latest
+
+    # On Guest OS:
+    docker pull syamilisn/my-python-env:latest
+    docker run -it syamilisn/my-python-env:latest
+
 #######################################
 
 # Useful git commands 
