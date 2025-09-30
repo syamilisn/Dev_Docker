@@ -54,6 +54,11 @@ docker push your-dockerhub-username/my-python-env:latest
     --platform linux/amd64,linux/arm64 \
     -t syamilisn/my-python-env:latest \
     --push .
+
+
+# mount local 
+docker-compose -p x up -d^C
+docker exec -it Bubble bash
 #######################################
 
 # Useful git commands 

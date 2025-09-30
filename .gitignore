@@ -12,3 +12,42 @@ myfolder/
 
 # Ignore specific files
 pythonimage.tar
+
+
+# Windows files to be ignored
+Kaiwan.zip                                                                                                                                                                                                                                                                                                     SysinternalsSuite.zip
+$RECYCLE.BIN/
+Dev_Android/
+Dev_Angular/
+Dev_Bitc/
+Dev_C/
+Dev_DB/
+Dev_Django/
+Dev_Docker/
+Dev_Git/
+Dev_Java/
+Dev_Latex/
+Dev_Linux/
+Dev_ML/
+Dev_Node/
+Dev_Python/
+Dev_Resume/
+Dev_Web/
+Dev_Win/
+Dev_Youtube/
+Docs1_Database/
+Docs2_Calculus/
+Docs_DataScience/
+Docs_Latex/
+Docs_Python/
+Docs_Web/
+Docs_ZZZ/
+Kaiwan/
+Proj_CKD/
+Sasken_LinuxDrivers_Feb23_kaiwanTECH (1)/
+SysinternalsSuite/
+System Volume Information/
+android-sdk-platform-tools-adb-35-0-0/
+custom_tools/
+x/
+Others/

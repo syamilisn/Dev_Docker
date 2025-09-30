@@ -1,0 +1,9 @@
+services:
+  python-app:
+    image: syamilisn/my-python-env:latest
+    container_name: Bubble
+    working_dir: /app
+    volumes:
+      - /x:/app   # Mount your local folder /x into /app inside container
+    stdin_open: true
+    tty: true
