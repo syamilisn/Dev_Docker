@@ -26,6 +26,18 @@ docker images
 docker save -o pythonimage.tar my-python-env:latest
 docker load -i pythonimage.tar
 docker run -it my-python-env:latest
+
+
+# Git doesn't allow >100 files so use docker hub instead.
+    # Tag your image for Docker Hub
+docker tag my-python-env:latest your-dockerhub-username/my-python-env:latest
+
+    # Login to Docker Hub
+docker login
+
+    # Push the image
+docker push your-dockerhub-username/my-python-env:latest
+
 #######################################
 
 # Useful git commands 
