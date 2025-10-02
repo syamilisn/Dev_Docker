@@ -1,0 +1,7 @@
+# Local Dock Bash Script
+
+#docker start -ai Bubble
+docker images
+#docker save -o pythonimage.tar my-python-env:latest
+docker load -i pythonimage.tar
+docker run -it my-python-env:latest
